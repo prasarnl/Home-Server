@@ -1,0 +1,5 @@
+#Create SSHkey
+ssh-keygen -t rsa -b 4096
+
+#copy key to server
+ssh-copy-id -i ~/.ssh/id_rsa.pub user@host-ip-address
