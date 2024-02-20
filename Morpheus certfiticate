@@ -1,6 +1,6 @@
 #Morpheus Certfiticate
 #Backup existing cert and private key
-sudo cp  çmorpheus.kanomcakey.com.crt  /etc/morpheus/ssl/morpheus.kanomcakey.com.crt.org
+sudo cp  /etc/morpheus/ssl/morpheus.kanomcakey.com.crt  /etc/morpheus/ssl/morpheus.kanomcakey.com.crt.org
 sudo cp  /etc/morpheus/ssl/morpheus.kanomcakey.com.key  /etc/morpheus/ssl/morpheus.kanomcakey.com.key.org
 
 #copy fullchain.pem to /etc/morpheus/ssl/morpheus.kanomcakey.com.keymorpheus.kanomcakey.com.crt
