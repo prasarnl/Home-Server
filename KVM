@@ -1,7 +1,7 @@
 # Create morpheus-cloud-init pool
 sudo mkdir /mnt
-sudo mkdir morpheus-cloud-init
-sudo mkdir morpheus-images
+sudo mkdir /mnt/morpheus-cloud-init
+sudo mkdir /mnt/morpheus-images
 
 sudo virsh pool-define-as morpheus-cloud-init dir --target "/mnt/morpheus-cloud-init"
 sudo virsh pool-build morpheus-cloud-init
