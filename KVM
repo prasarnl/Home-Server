@@ -9,7 +9,7 @@ sudo virsh pool-start morpheus-cloud-init
 sudo virsh pool-autostart morpheus-cloud-init
 
 # Create morpheus-images pool
-sudo virsh pool-define-as morpheus-morpheus-images dir --target "/mnt/morpheus-images"
+sudo virsh pool-define-as morpheus-images dir --target "/mnt/morpheus-images"
 sudo virsh pool-build morpheus-images
 sudo virsh pool-start morpheus-images
 sudo virsh pool-autostart morpheus-images
